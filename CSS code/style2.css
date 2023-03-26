@@ -1,0 +1,105 @@
+  i {
+    font-family: Georgia;
+    font-size: 50px;
+    text-decoration-line:underline;
+    padding: 20px;
+    font-weight: bold;  
+  }
+
+  select{
+    font-size: 30px;
+    border-radius: 10px;
+  }
+  textarea{
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  label{
+    font-size: 30px;
+  }
+
+  input{
+    font-size: 30px;
+    border-radius: 10px;
+  }
+  
+  body {
+    background-image: url('../images/background.png'),url('../images/background2.png');
+    background-repeat: no-repeat, repeat;
+    background-color: #9AD6FD;
+    margin: 0;
+    height: 100%; 
+    overflow: hidden
+  }
+  
+  button { 
+    margin-top: 10px;
+    
+    width: 60%;
+    background-color: #E8F2F7;
+    color: black;
+    border-color: #9AD6FD ;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: normal;
+    cursor: pointer;
+    border-radius: 100px;
+    box-sizing: border-box;    
+  }
+  button:hover {
+    color: #E8F2F7;
+    background-color: #15155E;
+  }
+  
+  .section1 {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    height: 100vh;
+  }
+
+  .section2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    height: auto;
+  }
+
+  .section3 {
+    position: absolute;
+    margin-left: 70px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    width: 50%;
+    height: 90vh;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-right: 5px solid #9AD6FD;
+  }
+  .section3::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .section4 {
+    position: absolute;
+    left:50% ;
+    margin-left: 150px;
+    margin-top: 80px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    height: auto;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-left: 5px solid #9AD6FD;
+  }
